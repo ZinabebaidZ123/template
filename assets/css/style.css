@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #d7ebf7;
+    --text-color: #504a4a;
+}
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.8;
+}
+p{
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+h4{
+    font-weight: 700;
+    line-height: 1.7;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+section{
+    padding: 8rem 2rem;
+}
+@media (max-width:567px){
+    html{
+        font-size: 14px;
+    }
+}
+/* start contact-us section----------------------------------------------------- */
+.contact {
+    padding-top: 8rem;
+    padding-bottom: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.contact .logo{
+    margin-bottom: 5rem;
+}
+.contact .title{
+    margin-bottom: 3rem;
+}
+.contact .row{
+    padding-top: 3rem !important;
+}
+.contact .contact-link{
+  width: 80% !important;
+    padding: 1rem;
+    border-radius: 0.75rem;
+}
+.contact  .link-cont{
+    background-color: var(--main-color) !important;
+ 
+   
+}
+.contact i{
+    font-size: 2.5rem;
+}
+/* start footer section--------------------- */
+footer{
+    padding:  2rem;
+}
+footer .footer-logo img{
+   width: 10%;
+}
+
+@media(max-width:900px){
+    footer .footer-logo img{
+        width: 50%;
+     }
+}
+@media(max-width:1350px){
+    footer .footer-logo img{
+        width: 20%;
+     }
+}
