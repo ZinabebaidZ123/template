@@ -5,6 +5,8 @@
 }
 :root{
     --main-color: #d7ebf7;
+    /* --main-color: #fff; */
+    --body-color: rgb(173, 50, 50);
     --text-color: #504a4a;
 }
 body{
@@ -60,7 +62,7 @@ section{
 .contact .contact-link{
   width: 80% !important;
     padding: 1rem;
-    border-radius: 0.75rem;
+    border-radius: 1rem;
 }
 .contact  .link-cont{
     background-color: var(--main-color) !important;
@@ -69,6 +71,26 @@ section{
 }
 .contact i{
     font-size: 2.5rem;
+}
+.contact .app-link button{
+    border: none;
+    outline: none;
+    background-color: var(--main-color);
+    padding: 1rem;
+    border-radius: 0.75rem;
+    margin-bottom: 2rem;
+
+}
+.contact .app-link button a{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.contact a{
+    transition: all 1s;
+}
+.contact a:hover{
+    color: #000;
 }
 /* start footer section--------------------- */
 footer{
